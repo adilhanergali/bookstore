@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <nav> 
+        <a>книги</a> 
+    </nav>
+    <div class="typer"> 
+        <input id="firstInput" class="typerbox"> 
+    </div>
+    <center>
+        <div class="mt"> 
+            <a onclick="first()" class="btn">Отправить</a> 
+        </div> 
+    </center>
+    </div> 
+    <section id="posts"> 
+        <div id="postsBox"> 
+            <div id="firstPost" class="post"> 
+                <div class="avaBox"> 
+                    <img id="imgpost" class="ava" src=""> 
+                    <b class="name" id="textposg"></b> 
+                </div> 
+                <img id="imgdude" class="img" src=""> 
+                <h3>Книги: Гарри Поттер, Хоббит, Война и мир</h3>
+                <div class="likes"> 
+                    <button onclick="kupi()" id="buybutton" class="likeb"></button>
+                </div> 
+                <div class="meaning" id="textposd"> 
+                </div> 
+            </div>     
+        </div> 
+    </section>
+    <h3 id="textim"></h3>
+    <input id="inputName">
+    <h3 id="textmail"></h3>
+    <input id="inputMail">
+    <div> 
+        <button id="buybuttonreal" onclick="buybook()"></button>
+    </div> 
+    <script src="script.js"></script> 
+</body> 
+</html>
